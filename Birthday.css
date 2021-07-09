@@ -1,0 +1,28 @@
+* {
+    background-image:url(/KIP.jpg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.text {
+    font-family: 'Satisfy', cursive;
+    text-align:center;
+    font-size: 40px;
+    color: red;
+    animation-name: colorchange;
+    animation-duration: 4s ;
+    animation-iteration-count:infinite ;
+}
+@keyframes colorchange {
+    0% {color: pink; }
+    10% {color: purple; }
+    20% {color: blue; }
+    30% {color: red; }
+    40% {color: green; }
+    50% {color: cyan; }
+    70% {color: orange; }   
+}
+#date {
+   text-align: center;
+   font-size: small;
+   font-family: Courier New;
+}
